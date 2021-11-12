@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="jp" dir="ltr">
+<html lang="ja">
+
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>TFC</title>
+    <script src="clock.js">here is the clock</script>
   </head>
-  <body>
-    this is a test page
+
+  <body onload="updateClock();">
+    <h1 align="center">三角関数時計</h1>
+    <div id="clockHour" align="center"
+        style="font:bold 30pt Courier New; color:#2f4f4f;">
+    </div>
+    <div id="clockMinute" align="center"
+        style="font:bold 30pt Courier New; color:#2f4f4f;">
+    </div>
+    <div id="clockSecond" align="center"
+        style="font:bold 30pt Courier New; color:#2f4f4f;">
+    </div>
   </body>
+
 </html>
