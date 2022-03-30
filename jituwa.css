@@ -1,0 +1,35 @@
+.fade {
+  opacity: 0;
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-timing-function: normal;
+  animation-fill-mode: forwards;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+   opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.main-fade {
+  opacity: 0;
+  animation-name: main-fade;
+  animation-duration: 1.5s;
+  animation-timing-function: normal;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes main-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
